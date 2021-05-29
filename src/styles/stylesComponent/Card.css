@@ -22,7 +22,7 @@
     border-radius: 25px 25px 0px 0px;
 }
 
-.description-opportunity {
+.description-product {
     padding: 7%;
     width: 87%;
     background-color: #FFF;
@@ -30,14 +30,14 @@
     display: none;
 }
 
-.description-opportunity.show {
+.description-product.show {
     display: block;
     border-radius: 0px 0px 25px 25px;
 }
 
 .card .suporte-image {
     height: 6rem;
-    width: 33%;
+    width: 23%;
     display: flex;
 }
 
@@ -60,17 +60,17 @@
     padding-left: 10px;
 }
 
-.card .suporte-image .sup-description .company {
+.card .suporte-image .sup-description .brand {
     font-size: 18px;
 }
 
-.card .suporte-image .sup-description .opportunity {
+.card .suporte-image .sup-description .product {
     font-size: 20px;
 }
 
 .sup-tags-skills {
     height: 6rem;
-    width: 33%;
+    width: 25%;
     display: flex;
     justify-content: center;
     justify-items: center;
@@ -79,7 +79,7 @@
 
 .sup-tags-skills .tag {
     height: 22px;
-    width: 100%;
+    width: 25%;
     border: 3px solid #000;
     border-radius: 15px;
     margin-left: 5px;
@@ -95,14 +95,9 @@
 }
 
 .sup-button {
-    height: 6rem;
-    width: 33%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.button-apply {
+.button-ver-mais {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,14 +110,37 @@
     background-color: #222020;
 }
 
-.button-apply:hover {
+.button-ver-mais:hover {
     background-color: #000000;
 }
 
-
-.apply-opportunity {
+.apply-product {
     width: 100%;
     margin-top: 40px;
     display: flex;
     justify-content: center;
+}
+
+.sup-precos {
+    width: 50%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.red {
+    color: #db4747;
+    background-color: #db4747;
+}
+
+.blue {
+    color:#4444e2;
+    background-color: #4444e2;
+}
+
+.yellow {
+    color: #c7c748;
+    background-color: #c7c748;
 }

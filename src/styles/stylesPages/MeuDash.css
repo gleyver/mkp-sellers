@@ -1,0 +1,43 @@
+.sup-graph {
+    width: 100%;
+    min-height: 500px;
+}
+
+.quantidade-vendas-periodo {
+    height: 500px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.card-vendas-por-periodo {
+    height: 500px;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.75);
+}
+
+@media only screen and (max-width: 600px) {
+    .card-vendas-por-periodo {
+        width: 100%;
+    }
+}
+
+.title-dashboard {
+    font-size: 24px;
+    text-align: center;
+}
+
+.quantidade-vendas-departamento {
+    height: 500px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.my-sale {
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+}

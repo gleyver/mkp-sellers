@@ -27,7 +27,7 @@
     text-align: center;
 }
 
-.btn-post-job {
+.btn-my-dashboard {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,7 +41,7 @@
     margin-right: 10px;
 }
 
-.btn-post-job:hover {
+.btn-my-dashboard:hover {
     background-color: #831b1b;
 }
 
@@ -68,6 +68,6 @@
 .wave {
     fill: #fff;
     position: absolute;
-    bottom: -80px;
+    bottom: 0px;
     z-index: 1;
 }

@@ -15,7 +15,7 @@ function handleCardClick(e) {
             el.classList.remove("active");
         });
 
-        let elem = document.querySelectorAll(".description-opportunity");
+        let elem = document.querySelectorAll(".description-product");
         [].forEach.call(elem, (el) => {
             el.classList.remove("show");
         });
@@ -30,35 +30,43 @@ function Card(props) {
     return (
         <>
             <div
-                data-id={props.opportunities.id}
+                data-id={props.products.id}
                 onClick={handleCardClick.bind(this)}
-                className={`card vaga-${props.opportunities.id}`}>
+                className={`card vaga-${props.products.id}`}>
                 
                 <div className="suporte-image">
                     <div className="image">
-                        <img src={props.opportunities.image} alt={props.opportunities.image} />
+                        <img src={props.products.image} alt={props.products.image} />
                     </div>
                     <div className="sup-description">
-                        <p className="company">{props.opportunities.company}</p>
-                        <p className="opportunity"><strong>{props.opportunities.jobOpportunity}</strong></p>
+                        <p className="brand">{props.products.brand}</p>
+                        <p className="product"><strong>{props.products.jobProduct}</strong></p>
                     </div>
                 </div>
                 <div className="sup-tags-skills">
-                    <div className="tag">PHP</div>
-                    <div className="tag">Python</div>
-                    <div className="tag">Java</div>
-                    <div className="tag">PHP</div>
-                    <div className="tag">Web Full Stack</div>
+                    <div className="tag">Refrigerador</div>
+                    <div className="tag">Geladeira</div>
                 </div>
-                <div className="sup-button">
-                    <a className="button-apply" target="blank" href={props.opportunities.linkOpportunity}> apply </a>
+                <div className="sup-precos">
+                    <div class="preco">
+                        <label><b>Preço mínimo</b></label><br/>
+                        <span class="blue">R$ 25,00</span>
+                    </div>
+                    <div class="preco">
+                        <label><b>Preço médio</b></label><br/>
+                        <span class="yellow">R$ 55,00</span>
+                    </div>
+                    <div class="preco">
+                        <label><b>Preço máximo</b></label><br/>
+                        <span class="red">R$ 70,00</span>
+                    </div>
                 </div>
             </div>
-            <div className={`description-opportunity description-${props.opportunities.id}`}>
-                {props.opportunities.description}
+            <div className={`description-product description-${props.products.id}`}>
+                {props.products.description}
 
-                <div class="apply-opportunity">
-                    <a className="button-apply" target="blank" href={props.opportunities.linkOpportunity}> apply </a>
+                <div class="apply-product">
+                    <a className="button-ver-mais" target="blank" href={props.products.linkProduct}> ver mais </a>
                 </div>
             </div>
         </>
