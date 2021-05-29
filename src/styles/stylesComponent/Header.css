@@ -1,0 +1,73 @@
+.header {
+    padding-top: 20px;
+    height: 480px;
+    width: 100%;
+    background-color: #ccc;
+    background-image: url("../../assets/tropical-nomad.jpg");
+    background-position: center center;
+    position: relative;
+    background-size: cover;
+}
+
+.header-logo {
+    width: 100%;
+    display: flex;
+}
+
+.header-logo .logo {
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10rem;
+}
+
+.head-sup-button {
+    text-align: center;
+}
+
+.btn-post-job {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 10rem;
+    border-radius: 15px;
+    padding: 10px;
+    color: #fff;
+    text-transform: capitalize;
+    background-color: #aa2121;
+    margin-right: 10px;
+}
+
+.btn-post-job:hover {
+    background-color: #831b1b;
+}
+
+.support-search {
+    display: flex;
+    height: 370px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.search {
+    width: 350px;
+    max-width: 80vw;
+    padding: 0.5em;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #0f1115;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+}
+
+.wave {
+    fill: #fff;
+    position: absolute;
+    bottom: -80px;
+    z-index: 1;
+}

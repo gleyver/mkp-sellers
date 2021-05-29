@@ -1,0 +1,128 @@
+
+#infinite-list {
+    width: 100%;
+    height: 80vh;
+}
+
+.card {
+    width: 99%;
+    min-height: 100px;
+    height: auto;
+    border: 1px solid #dddddd;
+    border-radius: 25px;
+    margin-top: 10px;
+    list-style-type: none;
+    background-color: #FFF;
+    padding: 1%;
+    display: flex;
+}
+
+.card.active {
+    background-color: #e9e9e9;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.description-opportunity {
+    padding: 7%;
+    width: 87%;
+    background-color: #FFF;
+    border: 1px solid #dddddd;
+    display: none;
+}
+
+.description-opportunity.show {
+    display: block;
+    border-radius: 0px 0px 25px 25px;
+}
+
+.card .suporte-image {
+    height: 6rem;
+    width: 33%;
+    display: flex;
+}
+
+.card .suporte-image .image {
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+    background-color: #ff0;
+    margin-top: 0.5rem;
+}
+
+.card .suporte-image .image img {
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+}
+
+.card .suporte-image .sup-description {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.card .suporte-image .sup-description .company {
+    font-size: 18px;
+}
+
+.card .suporte-image .sup-description .opportunity {
+    font-size: 20px;
+}
+
+.sup-tags-skills {
+    height: 6rem;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.sup-tags-skills .tag {
+    height: 22px;
+    width: 100%;
+    border: 3px solid #000;
+    border-radius: 15px;
+    margin-left: 5px;
+    padding: 10px;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sup-tags-skills .tag:hover {
+    font-weight: bold;
+}
+
+.sup-button {
+    height: 6rem;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-apply {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 10rem;
+    border-radius: 25px;
+    padding: 10px;
+    color: #FFF;
+    text-transform: capitalize;
+    background-color: #222020;
+}
+
+.button-apply:hover {
+    background-color: #000000;
+}
+
+
+.apply-opportunity {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
