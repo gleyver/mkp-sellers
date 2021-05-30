@@ -4,12 +4,21 @@
     background-color: #f8f8f8;
     border-bottom: 1px solid #e7e7e7;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
 }
 
 .header-publicar .logo {
     font-size: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.menu {
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 35px;
 }
 
 .header-publicar .meu-dashboard {

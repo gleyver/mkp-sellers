@@ -3,7 +3,7 @@
     height: 480px;
     width: 100%;
     background-color: #ccc;
-    background-image: url("../../assets/tropical-nomad.jpg");
+    background-image: url("../../assets/vivarejo-imagine-caminhos.webp");
     background-position: center center;
     position: relative;
     background-size: cover;
@@ -37,12 +37,13 @@
     padding: 10px;
     color: #fff;
     text-transform: capitalize;
-    background-color: #aa2121;
+    background-color: #03bbcc;
     margin-right: 10px;
+    text-decoration: unset;
 }
 
 .btn-my-dashboard:hover {
-    background-color: #831b1b;
+    background-color:  #3f81dca8;
 }
 
 .support-search {

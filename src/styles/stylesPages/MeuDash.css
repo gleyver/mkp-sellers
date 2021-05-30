@@ -39,5 +39,5 @@
 .my-sale {
     width: 100%;
     min-height: 600px;
-    display: flex;
+    /* display: flex; */
 }

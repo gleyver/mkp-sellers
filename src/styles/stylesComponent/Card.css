@@ -94,9 +94,6 @@
     font-weight: bold;
 }
 
-.sup-button {
-}
-
 .button-ver-mais {
     display: flex;
     justify-content: center;
@@ -132,15 +129,12 @@
 
 .red {
     color: #db4747;
-    background-color: #db4747;
 }
 
 .blue {
     color:#4444e2;
-    background-color: #4444e2;
 }
 
 .yellow {
     color: #c7c748;
-    background-color: #c7c748;
 }

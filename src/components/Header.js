@@ -4,9 +4,9 @@ function Header(props) {
     return (
         <div className="header">
             <div className="header-logo">
-                <div className="logo">LOGO</div>
+                <div className="logo"></div>
                 <div className="head-sup-button">
-                    <a className="btn-my-dashboard" href="/dashboard"> Meu DashBoard </a>
+                    <a className="btn-my-dashboard" href="/minhas-vendas"> Meu DashBoard </a>
                 </div>
             </div>
             <div className="support-search">

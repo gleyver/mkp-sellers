@@ -1,7 +1,7 @@
 import React from "react";
 import Card from './Card';
 
-let vagas =
+let skus =
 [
     {
         id: "1",
@@ -107,7 +107,7 @@ let vagas =
 class ListCard extends React.Component {
     render() {
         return (
-            vagas.map((i) => (
+            skus.map((i) => (
                 <Card
                     key={i.id}
                     products={i}
