@@ -6,7 +6,7 @@ function Header(props) {
             <div className="header-logo">
                 <div className="logo"></div>
                 <div className="head-sup-button">
-                    <a className="btn-my-dashboard"  target="_blank" href="https://dataplatform.cloud.ibm.com/dashboards/cc47507e-ba93-4c47-8741-9415239a36a8/view/6414c9093be200ff56ecb5e407cd79067f61740bb0bbd551d5817b4909662797f36140c5c82b4f58d3175363faea43509d"> Meu DashBoard </a>
+                    <a className="btn-my-dashboard"  target="_blank" href="https://dataplatform.cloud.ibm.com/dashboards/e6fb6dc6-555f-4e43-bdc0-a36b82e24111/view/5006c12164952a9010dddce407cd79067f61740bb0bbd551d5817b4909662797f36140c5c82b4f58d3175363faea43509d"> Meu Indicadores </a>
                 </div>
             </div>
             <div className="support-search">

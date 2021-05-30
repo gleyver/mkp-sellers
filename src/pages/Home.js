@@ -7,7 +7,7 @@ function Home() {
         <div className="App">
             <Header/>
             <main id="main">
-                <h1>Análises de preços dos produtos</h1>
+                <h1>Variação de preço</h1>
                 <ListCard />
             </main>
         </div>

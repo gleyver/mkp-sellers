@@ -4,15 +4,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Requirements
 
-* Install node ->[ ](https://nodejs.org/en/download/)[click here for windows](https://nodejs.org/en/download/) or[here for linux](https://itsfoss.com/install-nodejs-ubuntu/)
-* To install yarn[click here]()
+* Install node ->[ ](https://nodejs.org/en/download/)[click here for windows](https://nodejs.org/en/download/) or [here for linux](https://itsfoss.com/install-nodejs-ubuntu/)
+* To install yarn [click here]()
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-* `npm install` or`yarn install`
-* `npm start` or`yarn start`
+* `npm install` or `yarn install`
+* `npm start` or `yarn start`
 
 Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
