@@ -121,6 +121,23 @@
 .sup-precos {
     width: 50%;
     height: 6rem;
+    border: 1px solid #ff0000;
+    border-radius: 10px;
+}
+
+.alerta-preco {
+    text-align: center;
+    margin-top:10px;
+    margin-bottom: 5px;
+    width: 35%;
+    border-radius:10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    background-color: orangered;
+}
+
+.suporte-precos {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -137,4 +154,63 @@
 
 .yellow {
     color: #c7c748;
+}
+
+.btn-ajusta-preco {
+    margin-left: 40px;
+    color: white;
+    background-color:#000;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.btn-ajusta-preco:hover {
+    background-color:#0a0a0a;
+}
+
+.input-ajusta-preco {
+    padding: 20px;
+    margin-left:20px;
+    font-size: 22px;
+}
+
+.label-preco {
+    font-size: 24px;
+}
+
+.alinha-descricao {
+    width:70%;
+    margin: 0 auto;
+}
+
+.sup-sugestao {
+    text-align:center;
+    width: 25%;
+    padding: 0 30px;
+}
+
+.sup-sugestao p span {
+    color: blue;
+    cursor: pointer;
+}
+
+.dark {
+    color: #000;
+}
+
+.btn-ignorar {
+    margin-top: 40px;
+}
+
+.btn-ignorar button {
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.btn-ignorar button:hover {
+    background-color: #0e0d0d;
 }

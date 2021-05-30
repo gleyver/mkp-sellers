@@ -1,0 +1,317 @@
+import React from "react";
+
+let volume_vendas = [{
+    "Pub": "30",
+    "idskureferencia": "1511983609",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "Automotivo",
+    "nomesetor": "Motos",
+    "qtd": "2"
+}, {
+    "Pub": "60",
+    "idskureferencia": "1505102152",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "Automotivo",
+    "nomesetor": "Automotivo",
+    "qtd": "4"
+}, {
+    "Pub": "60",
+    "idskureferencia": "1501283149",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "Automotivo",
+    "nomesetor": "Motos",
+    "qtd": "2"
+}, {
+    "Pub": "60",
+    "idskureferencia": "1505550031",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "Casa e Constru\u00e7\u00e3o",
+    "nomesetor": "Ilumina\u00e7\u00e3o de Casa",
+    "qtd": "2"
+}, {
+    "Pub": "60",
+    "idskureferencia": "1511983609",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "Automotivo",
+    "nomesetor": "Motos",
+    "qtd": "2"
+}, {
+    "Pub": "60",
+    "idskureferencia": "1502998707",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "Automotivo",
+    "nomesetor": "Motos",
+    "qtd": "2"
+}, {
+    "Pub": "30",
+    "idskureferencia": "13553255",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "\u00c1udio",
+    "nomesetor": "\u00c1udio",
+    "qtd": "2"
+}, {
+    "Pub": "60",
+    "idskureferencia": "1504540521",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "Automotivo",
+    "nomesetor": "Motos",
+    "qtd": "2"
+}, {
+    "Pub": "60",
+    "idskureferencia": "1502998701",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "Automotivo",
+    "nomesetor": "Motos",
+    "qtd": "2"
+}, {
+    "Pub": "30",
+    "idskureferencia": "1502998518",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "\u00c1udio",
+    "nomesetor": "\u00c1udio",
+    "qtd": "2"
+}, {
+    "Pub": "60",
+    "idskureferencia": "1502998518",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "\u00c1udio",
+    "nomesetor": "\u00c1udio",
+    "qtd": "2"
+}, {
+    "Pub": "60",
+    "idskureferencia": "13553255",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "\u00c1udio",
+    "nomesetor": "\u00c1udio",
+    "qtd": "3"
+}, {
+    "Pub": "30",
+    "idskureferencia": "1502998707",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "Automotivo",
+    "nomesetor": "Motos",
+    "qtd": "1"
+}, {
+    "Pub": "30",
+    "idskureferencia": "1503675043",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "\u00c1udio",
+    "nomesetor": "\u00c1udio",
+    "qtd": "1"
+}, {
+    "Pub": "30",
+    "idskureferencia": "6794841",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "Eletrodom\u00e9sticos",
+    "nomesetor": "Fog\u00f5es",
+    "qtd": "1"
+}, {
+    "Pub": "60",
+    "idskureferencia": "1504540530",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "Automotivo",
+    "nomesetor": "Motos",
+    "qtd": "1"
+}, {
+    "Pub": "30",
+    "idskureferencia": "1510076731",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "Automotivo",
+    "nomesetor": "Ilumina\u00e7\u00e3o",
+    "qtd": "1"
+}, {
+    "Pub": "30",
+    "idskureferencia": "1502998643",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "Automotivo",
+    "nomesetor": "Motos",
+    "qtd": "1"
+}, {
+    "Pub": "60",
+    "idskureferencia": "1504183454",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "Automotivo",
+    "nomesetor": "Motos",
+    "qtd": "1"
+}, {
+    "Pub": "30",
+    "idskureferencia": "1501355861",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "Automotivo",
+    "nomesetor": "Motos",
+    "qtd": "1"
+}, {
+    "Pub": "60",
+    "idskureferencia": "1511623660",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "Automotivo",
+    "nomesetor": "Igni\u00e7\u00e3o",
+    "qtd": "1"
+}, {
+    "Pub": "7",
+    "idskureferencia": "1502998707",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "Automotivo",
+    "nomesetor": "Motos",
+    "qtd": "1"
+}, {
+    "Pub": "60",
+    "idskureferencia": "1501281810",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "Automotivo",
+    "nomesetor": "Motos",
+    "qtd": "1"
+},{
+    "Pub": "60",
+    "idskureferencia": "1510076731",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "Automotivo",
+    "nomesetor": "Ilumina\u00e7\u00e3o",
+    "qtd": "1"
+}, {
+    "Pub": "60",
+    "idskureferencia": "1503675043",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "\u00c1udio",
+    "nomesetor": "\u00c1udio",
+    "qtd": "1"
+}, {
+    "Pub": "60",
+    "idskureferencia": "1510251391",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "Automotivo",
+    "nomesetor": "Motos",
+    "qtd": "1"
+}, {
+    "Pub": "7",
+    "idskureferencia": "1502998518",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "\u00c1udio",
+    "nomesetor": "\u00c1udio",
+    "qtd": "1"
+}, {
+    "Pub": "30",
+    "idskureferencia": "1504559122",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "Automotivo",
+    "nomesetor": "Ilumina\u00e7\u00e3o",
+    "qtd": "1"
+}, {
+    "Pub": "60",
+    "idskureferencia": "1504559122",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "Automotivo",
+    "nomesetor": "Ilumina\u00e7\u00e3o",
+    "qtd": "1"
+}, {
+    "Pub": "60",
+    "idskureferencia": "1501355861",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "Automotivo",
+    "nomesetor": "Motos",
+    "qtd": "1"
+}, {
+    "Pub": "60",
+    "idskureferencia": "1500125888",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "Automotivo",
+    "nomesetor": "Motos",
+    "qtd": "1"
+}, {
+    "Pub": "60",
+    "idskureferencia": "1503042197",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "Automotivo",
+    "nomesetor": "Motos",
+    "qtd": "1"
+}, {
+    "Pub": "60",
+    "idskureferencia": "6794841",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "Eletrodom\u00e9sticos",
+    "nomesetor": "Fog\u00f5es",
+    "qtd": "1"
+}, {
+    "Pub": "60",
+    "idskureferencia": "1503276658",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "Automotivo",
+    "nomesetor": "Motos",
+    "qtd": "1"
+}, {
+    "Pub": "60",
+    "idskureferencia": "1502998468",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "Automotivo",
+    "nomesetor": "Motos",
+    "qtd": "1"
+}, {
+    "Pub": "60",
+    "idskureferencia": "1508631772",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "Automotivo",
+    "nomesetor": "Motos",
+    "qtd": "1"
+}, {
+    "Pub": "60",
+    "idskureferencia": "1504775619",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "Automotivo",
+    "nomesetor": "Som Automotivo",
+    "qtd": "1"
+}, {
+    "Pub": "60",
+    "idskureferencia": "1502998643",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "Automotivo",
+    "nomesetor": "Motos",
+    "qtd": "1"
+}, {
+    "Pub": "60",
+    "idskureferencia": "1500598058",
+    "idlojista": "10012",
+    "estado": "GO",
+    "nomedepartamento": "Automotivo",
+    "nomesetor": "Motos",
+    "qtd": "1"
+}]
+
+export default volume_vendas;
